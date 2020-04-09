@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">База данных пользователей</string>
+    <string name="signUpButtonText">Зарегистрироваться</string>
+    <string name="usersListButtonText">Список пользователей</string>
+    <string name="signUpConfirmButtonText">Сохранить</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="email">E-mail</string>
+    <string name="password">Пароль</string>
+    <string name="emptyField">Пожалуйста заполните данные.</string>
+    <string name="successMessage">Вы зарегистрированы.</string>
+    <string name="errorMessage">Ошибка. Вы незарегестрированы.</string>
+</resources>
