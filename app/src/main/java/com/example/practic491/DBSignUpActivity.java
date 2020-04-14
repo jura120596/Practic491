@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class SignUpActivity extends AppCompatActivity implements View.OnClickListener {
+public class DBSignUpActivity extends AppCompatActivity implements View.OnClickListener {
     EditText name;
     EditText surname;
     EditText email;
@@ -18,7 +18,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up);
+        setContentView(R.layout.db_activity_sign_up);
         name = findViewById(R.id.name);
         surname = findViewById(R.id.surname);
         email = findViewById(R.id.email);

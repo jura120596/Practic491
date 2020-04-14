@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">База данных пользователей</string>
-    <string name="signUpButtonText">Зарегистрироваться</string>
-    <string name="usersListButtonText">Список пользователей</string>
-    <string name="signUpConfirmButtonText">Сохранить</string>
+    <string name="signUpButtonText">Зарегистрироваться в БД</string>
+    <string name="serverSignUpButtonText">Зарегистрироваться на сервере</string>
+    <string name="signInButtonText">Войти на сервер</string>
+    <string name="usersListButtonText">Список пользователей из бд</string>
+    <string name="signUpConfirmButtonText">Зарегистрироваться</string>
     <string name="name">Имя</string>
     <string name="surname">Фамилия</string>
     <string name="email">E-mail</string>

@@ -5,29 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".SignInActivity">
 
-    <Button
-        android:id="@+id/signUpButton"
+    <EditText
+        android:id="@+id/email_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/signUpButtonText" />
+        android:ems="10"
+        android:hint="@string/name"
+        android:text="jura96_@mail.ru"
+        android:inputType="textPersonName" />
 
-    <Button
-        android:id="@+id/serverSignUpButton"
+    <EditText
+        android:id="@+id/password_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/serverSignUpButtonText" />
+        android:ems="10"
+        android:hint="@string/password"
+        android:text="KrkajzLZgdB"
+        android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/signInButton"
+        android:id="@+id/signIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/signInButtonText" />
-
-    <Button
-        android:id="@+id/usersListButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/usersListButtonText" />
+        android:text="Войти" />
 </LinearLayout>

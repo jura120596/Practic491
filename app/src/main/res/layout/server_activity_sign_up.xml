@@ -5,29 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".DBSignUpActivity">
 
-    <Button
-        android:id="@+id/signUpButton"
+    <EditText
+        android:id="@+id/serverName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/signUpButtonText" />
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName" />
 
-    <Button
-        android:id="@+id/serverSignUpButton"
+    <EditText
+        android:id="@+id/serverSurname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/serverSignUpButtonText" />
+        android:ems="10"
+        android:hint="@string/surname"
+        android:inputType="textPersonName" />
 
-    <Button
-        android:id="@+id/signInButton"
+    <EditText
+        android:id="@+id/serverEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/signInButtonText" />
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textPersonName" />
 
     <Button
-        android:id="@+id/usersListButton"
+        android:id="@+id/serverSignUpConfirm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/usersListButtonText" />
+        android:text="@string/signUpConfirmButtonText" />
 </LinearLayout>
