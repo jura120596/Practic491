@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/name"
-        android:text="jura96_@mail.ru"
         android:inputType="textPersonName" />
 
     <EditText
@@ -22,7 +21,6 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/password"
-        android:text="KrkajzLZgdB"
         android:inputType="textPassword" />
 
     <Button

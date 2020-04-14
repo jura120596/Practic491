@@ -73,7 +73,7 @@ public class HttpService extends Service {
             String result = "";
             try {
                 //загружаем данные
-                URL url = new URL("https://devquex.namisoft.ru/api/auth/employee/signup");
+                URL url = new URL("http://sdsdsd34.ngrok.io/api/auth/employee/signup");
                 HttpURLConnection con = (HttpURLConnection) url.openConnection();
                 con.setRequestMethod("POST");
 
@@ -116,7 +116,7 @@ public class HttpService extends Service {
             String result = "";
             try {
                 //загружаем данные
-                URL url = new URL("https://devquex.namisoft.ru/api/auth/login");
+                URL url = new URL("http://sdsdsd34.ngrok.io/api/auth/login");
                 HttpURLConnection con = (HttpURLConnection) url.openConnection();
                 con.setRequestMethod("POST");
                 Map<String, String> parameters = new HashMap<>();
